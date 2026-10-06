@@ -1,0 +1,15 @@
+ID,Activity,Acceptance criterion,Artifact
+A1.1,"Define purpose, legal basis and categories of personal and inferred data",100% of data categories with purpose and legal basis recorded before data access,Privacy requirements sheet (versioned); record of processing
+A1.2,"Screen and open the DPIA/RIPD, including AI-specific risks",DPIA opened whenever screening meets >= 2 high-risk criteria; each risk rated for likelihood and impact,DPIA/RIPD; privacy risk register
+A2.1,Minimize attributes and records against the purpose,Every retained attribute justified against the purpose; removed attributes logged,Minimization decision log
+A2.2,"Anonymize, pseudonymize or synthesize data in proportion to risk","k, l, t (or epsilon, delta) recorded; re-identification risk below the register threshold; zero replications of unique records in synthetic data (example)",Anonymization report
+A3.1,Select the training PET by risk and adversary,"Each PET traced to a register risk; privacy budget (epsilon,delta) fixed and justified before training",PET decision record; privacy parameter log
+A3.2,Record provenance and legal basis per dataset and model version,Every model version traceable to its dataset versions and legal bases,Dataset register; model lineage
+A4.1,"Test privacy leakage (membership inference, model inversion)",Attack success (e.g. membership-inference AUC) at or below the register threshold,Attack test report; residual risk score
+A4.2,Test fairness and formally accept residual risk,Demographic parity >= 0.80 (example); residual risk accepted by controller and DPO before release,Fairness report; risk acceptance record
+A5.1,Inform data subjects and enable review of automated decisions,100% of automated decisions with explanation and a human review channel,Privacy notice; model card
+A5.2,Enforce access control and protected inference,Least-privilege access reviewed at release; inference and access logs retained,Access matrix; audit trail
+A6.1,"Reassess privacy risk on triggers (retraining, drift, new purpose)",DPIA updated before every redeployment that follows a trigger,Updated DPIA; trigger log
+A6.2,"Handle data subject requests, retention and disposal","Requests answered within the legal deadline; data disposed of at end of purpose, with proof of erasure",Request log; retention and disposal report
+AT.1,Manage privacy incidents,Incidents communicated to the ANPD and data subjects within the regulatory deadline,Incident log
+AT.2,Maintain governance and traceability,"Roles (DPO, product owner) assigned; 100% of activities linked to a gap and a regulatory clause",Traceability matrix

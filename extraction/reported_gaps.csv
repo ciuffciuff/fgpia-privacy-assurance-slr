@@ -1,0 +1,117 @@
+id,gap_reported
+S01,"Infraestrutura de ML é tipicamente separada e fracamente acoplada aos sistemas de negócio, dificultando o atendimento aos direitos dos titulares ao longo do ciclo (p. 3)"
+S01,Retificação/apagamento afetam todas as etapas do ML até a saída; reprocessar tudo é custoso e o reprocessamento delta depende de lembrar a fonte (p. 4)
+S02,Ausência de métricas de privacidade padronizadas para sistemas de IA que permitam demonstrar conformidade (p. 61847)
+S02,"Dificuldade de determinar a quantidade mínima de dados necessária, dificultando demonstrar minimização perante reguladores (p. 61847)"
+S02,"Ferramentas de compliance e PIA existentes dão medida geral de privacidade, inadequada à complexidade por fases dos sistemas de IA; faltam ferramentas de auditoria específicas (p. 61848)"
+S02,Falta de protocolo padrão de implantação que permita auditorias e PIA pós-implantação (p. 61848)
+S02,Incerteza sobre se o GDPR exige explicação de decisões automatizadas (p. 61837)
+S02,"Regulações (GDPR, OECD) não consideram plenamente aplicações complexas de IA; legisladores podem não compreender novos algoritmos (p. 61844)"
+S02,Consentimentos/avisos longos e complexos; necessidade de formulário padrão e conciso (p. 61847)
+S03,Mandatos de consentimento do GDPR são de difícil implementação prática pela escala e heterogeneidade dos dados de treino de IA generativa (p. 93-94)
+S03,Direitos de apagamento/retificação são tecnicamente difíceis após os dados estarem nos pesos; machine unlearning não comprovado para modelos fundacionais de larga escala (p. 95)
+S03,Falta de mecanismos de rastreabilidade entre dados de treino e saídas dificulta remoção e atribuição (p. 95)
+S03,"Técnicas existentes (DP, unlearning, poisoning) tratam segmentos isolados do ciclo, não o ciclo inteiro (p. 93)"
+S05,A necessidade de grandes volumes de dados para modelos não supervisionados parece conflitar com o princípio de minimização (p. 154)
+S05,"Em aprendizado não supervisionado e deep learning, os impactos de privacidade e o tipo de dado gerado não são conhecidos de antemão, o que dificulta a avaliação prévia (p. 150-151)"
+S05,IA não produz documentação apropriada por si; é preciso esforço deliberado para criar os registros exigidos por transparência e responsabilização (p. 157)
+S05,"Inferências derivadas podem constituir dados sensíveis mesmo a partir de dados não sensíveis, exigindo gestão não prevista na coleta direta (p. 148-149)"
+S06,"O WP29 exige um teste de ponderação (esforço do controlador vs. riscos ao titular) para a isenção por esforço desproporcional, mas não especifica o processo dessa avaliação (p. 8; 11)."
+S06,"Fora das diretrizes de transparência do WP29, nem o EDPB nem autoridades nacionais emitiram orientação específica sobre o art. 14.5(b); a jurisprudência do TJUE não trata da coleta indireta (p. 8-9; 24)."
+S06,Faltam orientações práticas sobre como usar conjuntos de dados de treino em conformidade com os princípios do GDPR; a literatura jurídica enfatiza evitar ou punir riscos mais do que construir IA conforme de forma proativa (p. 2-3).
+S06,"Não há jurisprudência sobre o art. 11 (tratamento que não exige identificação), relevante para conjuntos de treino (p. 10)."
+S06,"O GDPR não identifica medidas técnicas específicas, e escolher a pseudonimização adequada em conjuntos de treino exige alta competência técnica (p. 20-21)."
+S06,"A ausência de orientação gera incerteza que pode frear a adoção de IA, sobretudo por PMEs (p. 24)."
+S07,"Não discute lacunas entre normas e engenharia; apenas afirma que leis de privacidade criam pressões em todo o ciclo de vida de produtos de IA (p. 1, resumo)"
+S08,"Soluções existentes tratam aspectos isolados da privacidade, sem abordagem abrangente que equilibre viabilidade técnica, escalabilidade e conformidade regulatória ao longo de todo o ciclo (p. 15)"
+S08,"Dificuldade de estabelecer prazos de retenção claros, atualizar políticas e alinhar políticas de retenção a regulações, objetivos de negócio e capacidades tecnológicas (Tabela 10, p. 16)"
+S08,"Verificação de exclusão difícil sem depender de confiança; risco de dados residuais após pedidos de exclusão (Tabela 6, p. 8)"
+S08,"Aplicação efetiva de políticas de retenção em sistemas distribuídos e monitoramento contínuo de conformidade entre jurisdições (Tabela 6, p. 8)"
+S08,Necessidade de abordagens padronizadas e de ferramentas para controles de privacidade em tempo real e sensíveis ao contexto (p. 18)
+S09,"Os testes de anonimização e ATOM do GDPR dependem de padrões jurídicos vagos ('meios razoavelmente prováveis', risco 'insignificante', medidas 'apropriadas') e geraram interpretações divergentes entre autoridades e tribunais, inclusive em ML (p. 1-4)."
+S09,"Não há definição de qual probabilidade torna um resultado probabilístico de um LLM um dado pessoal, nem de qual nível de probabilidade de reidentificação é 'insignificante'; os autores dizem não ter resposta e deixam a decisão a tribunais/APDs (p. 4; 8)."
+S09,"Fora da pesquisa científica (art. 89), nenhuma autoridade ou tribunal europeu considerou perda de utilidade ou de equidade ao avaliar se as medidas ATOM são apropriadas, embora o AI Act exija acurácia e equidade para sistemas de alto risco (p. 5-6)."
+S09,Divergências entre a abordagem objetiva vs. subjetiva e absoluta vs. baseada em risco não estão definitivamente resolvidas; o documento de Hamburgo (usuário médio) conflita com o TJUE (jornalista motivado) (p. 3-4).
+S09,"Na prática, a materialização de um risco gerava a presunção de que as medidas eram inapropriadas, o que o TJUE contestou ao admitir risco residual (p. 4)."
+S09,Faltam benchmarks para medir ε em vários níveis de δ para modelos e conjuntos de dados existentes (p. 12).
+S10,Natureza retrospectiva e documental da DPIA leva a avaliações estáticas que ficam desatualizadas quando modelos são retreinados (p. 91)
+S10,Nenhuma solução de PIA/DPIA existente cobre adequadamente os nove PTPs específicos de BDA (p. 93)
+S10,Falta de orientação concreta sobre anonimização/desidentificação; desidentificação não equivale a anonimização completa (p. 108)
+S10,"Ambiguidade de papéis de controlador/operador em BDA e disparidade entre guias das autoridades nacionais (p. 103, 107-108)"
+S10,"Indeterminação procedimental da DPIA em BDA (PTP 8), sem consenso entre especialistas (p. 106, 112)"
+S10,"DPIA tem limites para tratar assimetrias estruturais de poder e danos sistêmicos (viés algorítmico) difíceis de quantificar (p. 91, 117)"
+S11,"Não há propostas amplamente adotadas para formalizar, implementar e avaliar conformidade com o GDPR no desenvolvimento de software (p. 1-2)"
+S11,"Trabalhos existentes oferecem modelos declarativos/ontologias com cobertura parcial do GDPR, não acionáveis na prática, e a maioria atua a jusante (verificação) e não proativamente (p. 16-17)"
+S11,"Parte dos requisitos (base legal adequada, suficiência de medidas, análise de risco/DPIA, validação de minimização) exige julgamento humano e fica fora da automação (p. 19-20)"
+S12,O GDPR exige DPIA para processamento de alto risco mas não especifica a metodologia; guias de autoridades são fragmentados e inconsistentes entre jurisdições (lacuna política-implementação) (p. 22)
+S12,Ausência de obrigação legal específica para modelos de negócio baseados em IA (L1) e divergência entre Estados-membros nos critérios que disparam DPIA (L2) (p. 11)
+S12,"Risco no GDPR (direitos e liberdades do titular) difere da gestão de risco tradicional e exige perspectiva do titular (R1, R5) (p. 10-12)"
+S12,Sobreposição entre DPIA (GDPR Art. 35) e FRIA (AI Act Art. 27) gera fragmentação e incerteza de conformidade (p. 1-2; p. 21-22)
+S12,"ISO/IEC 27701 e 29134 não cobrem explicitamente equidade algorítmica, impacto socioético e tecnologias emergentes (p. 23-24, Tabela A4)"
+S12,"Dificuldade de operacionalizar o princípio de equidade (Art. 5(1)(a)) na DPIA e dependência de julgamento discricionário de proporcionalidade (C6, C15) (p. 13)"
+S13,Poucos trabalhos tratam de como ferramentas de IA em RH cumprem o AI Act ou exploram ferramentas para DPIA (p. 4).
+S13,"A literatura de desenvolvimento de RH ignora em grande parte aspectos de governança e regulação da IA, inclusive proteção de dados (p. 2)."
+S13,"Aplicar PETs de prateleira (citando El Mestari et al.) não basta sem compreender a arquitetura de dados e a fase de processamento; a redação parcial de PII não garante anonimização do GDPR, porque quase-identificadores como salário e departamento mantêm risco residual de reidentificação (p. 3)."
+S13,Privacidade e equidade são tratadas como problemas de otimização separados; DP e SMPC podem introduzir ou ampliar viés (p. 3-4).
+S13,"Remover nomes e indicadores demográficos evidentes tem efeito limitado sobre o viés, porque LLMs inferem dados demográficos de materiais redigidos (p. 3)."
+S14,"PETs não são inerentemente 'privacy-by-design': exigem escolhas proativas de configuração pelas organizações (p. 5, 24-25)"
+S14,PETs não resolvem base legal (Art. 6/9) nem transparência; não dispensam base legal salvo se dados forem 'efetivamente anonimizados' (p. 24)
+S14,"O ISA entre as partes não detalhava o suficiente para garantir processamento mínimo, e não havia evidência de finalidade limitada (p. 16, 19)"
+S14,Pesos de modelo no FL podem conter dados pessoais e permitir ataques de inversão; FL pode introduzir novos riscos de segurança (p. 15-16)
+S14,Uso de dados sintéticos para equidade não é inerente: depende de curadoria especializada (p. 23)
+S14,"Baixa adoção de PETs no Reino Unido e falta de casos de uso convincentes, segundo o ICO (p. 4-5)"
+S15,Falta orientação para praticantes e arquitetos sobre qual PET aplicar a cada cenário de risco em cada estágio do fluxo de IA (resumo; seção 1)
+S15,Modelos tradicionais de consentimento não cobrem aprendizado contínuo nem riscos de inferência (seção 3)
+S15,"Auditabilidade insuficiente em sistemas federados e de aprendizado contínuo enfraquece transparência, accountability e fiscalização sob GDPR, HIPAA e AI Act (seção 3)"
+S15,"Tensão entre logging imutável em blockchain e o direito ao apagamento do GDPR (seção 3.3, CAGACA)"
+S15,"Riscos de governança (consentimento, accountability, limitação de finalidade) não são mitigáveis só com PETs centradas em dados ou modelos (seção 4)"
+S16,Formulações regulatórias como 'limitado ao necessário' são conceitualmente simples mas tecnicamente difíceis de instanciar (p. 12)
+S16,"Técnicas de ML implicitamente minimizam dados, mas raramente enquadram objetivos em termos de conformidade, deixando praticantes incertos sobre se cumprem obrigações legais (p. 2)"
+S16,"Não há forma padronizada de avaliar minimização (métricas, trade-offs, datasets) (p. 12)"
+S16,"Garantias (ε, δ) da DP protegem contra inferência de pertencimento mas não contra reconstrução de atributos, e só atuam em estágio tardio (A-Model), cumprindo apenas parcialmente os requisitos regulatórios (p. 5, 12, 19)"
+S16,"Regulações são formuladas em termos de indivíduos, enquanto adversários de reconstrução medem risco populacional (p. 18)"
+S16,"Literatura (PPDP) presume um único atributo sensível, enquanto o GDPR exige proteção de todos os atributos pessoais (p. 19)"
+S17,"'Enterprise AI Risk Gap': progresso técnico supera a capacidade organizacional de quantificar, governar e aplicar controles de privacidade e segurança ao longo do ciclo (p. 32)"
+S17,"Controles de privacidade e governança introduzidos tarde e de forma ad hoc, com controles desiguais entre estágios (p. 32)"
+S17,DPIAs degeneram em exercícios estáticos e legalistas desvinculados do contexto do projeto (p. 33)
+S17,Detecção de PII não mede a exposição de forma holística; falta quantificação de risco antes e após mitigação (p. 33)
+S18,"Privacidade tratada como atividade de conformidade separada, e não como princípio de projeto (p. 439)"
+S18,"Ferramentas de privacidade voltadas à validação de conformidade, não à proteção proativa; avaliações de impacto convencionais insuficientes para implantação contínua (p. 440)"
+S18,AIOps consome logs com PII sem tratamento de privacidade adequado (p. 440)
+S19,DPIAs mantidas sob o GDPR não cobrem riscos específicos de IA exigidos pelo AI Act nem riscos de decisão automatizada de outros regimes (p. 202)
+S19,"Explicações gerais sobre a 'lógica envolvida' não atendem à exigência de explicações dos critérios de decisão em modelos complexos de ML (GDPR, LGPD, PIPL) (p. 202)"
+S19,"Documentação desenhada para GDPR insuficiente para a documentação técnica do AI Act (governança de dados, supervisão humana) (p. 202)"
+S19,Ausência de mecanismos específicos para revisão humana de decisões automatizadas (LGPD) e para opt-out de decisões automatizadas (CPRA) (p. 202)
+S19,"Conflitos diretos entre regimes em consentimento e transferências internacionais (5-20% por dimensão) (p. 201, 203)"
+S19,Pesquisa sobre estratégias técnicas de implementação para requisitos multijurisdicionais pouco desenvolvida (p. 199)
+S20,Estudos tratam segurança ou privacidade isoladamente em workflows de AI/ML em nuvem (p. 28701)
+S20,Aprendizado federado e criptografia homomórfica pouco adotados devido a overhead computacional e escalabilidade (p. 28701)
+S20,Falta implementação e validação em ambientes de nuvem de larga escala (p. 28701)
+S22,"Obrigações de PbD (GDPR Art. 25, instrumentos de governança de IA) são tecnologicamente neutras e não especificam o que conta como implementação técnica suficiente nem que evidência os auditores devem esperar (p. 71)"
+S22,"Sem ponte explícita, organizações caem em 'paper compliance' (políticas sem enforcement técnico) ou 'ad hoc engineering' (controles sem justificativa legal rastreável) (p. 71)"
+S22,Conformidade com frameworks voluntários não satisfaz automaticamente obrigações vinculantes de direitos fundamentais (p. 73)
+S23,Uso de um único indicador (ε-DP ou um único teste adversarial) é insuficiente para gestão de engenharia; necessidade de avaliação integrada e auditável (p. 788)
+S23,O estudo não relaciona explicitamente requisitos normativos às métricas; 'limiares de conformidade' são citados sem definição (p. 790)
+S24,"A maioria dos LMS fornece dados dos estudantes via API 'as-is', sem censura, exigindo que a anonimização seja implementada pelo próprio projeto (p. 218)"
+S24,Falta de método para demonstrar que a anonimização é suficiente e resistente a mudanças nos sistemas de origem (p. 218)
+S24,Regulação de learning analytics ainda em desenvolvimento; espera-se legislação mais estrita (p. 219); explicabilidade exigida por regulação da UE para aplicações críticas é citada sem detalhamento (p. 214)
+S25,"Instrumentos regulatórios não foram projetados para o caráter adaptativo, probabilístico e opaco da GenAI, dificultando aplicação direta (Seção 2)"
+S25,"Metodologias de PIA/PRA têm validação empírica limitada, alta subjetividade, fraca integração com a decisão organizacional e são aplicadas como exercícios pontuais (Seções 2 e 5)"
+S25,"Lacuna entre a intenção regulatória (GDPR, LGPD) e a prática organizacional quando a governança é fragmentada ou orientada a checklist (Seção 6)"
+S25,NIST AI RMF é de alto nível e requer contextualização para GenAI em empresas (Seção 1)
+S25,Falta orientação consolidada que ligue riscos de privacidade específicos de GenAI a mecanismos de governança acionáveis (Seções 1-2)
+S26,"Grande variação entre Estados-Membros nas condições que exigem DPIA: 94 condições distintas, 82 oriundas de listas nacionais; Polônia com 31 condições e Suécia/Malta com 15 (Seção 3/achados)"
+S26,"Apenas cinco países (Áustria, Dinamarca, Alemanha, Grécia, Rep. Tcheca) exigem DPIA para qualquer uso de IA, o que torna a classificação de alto risco dependente da jurisdição (achados)"
+S26,"DPIA é sempre necessária em 23 das 25 subcláusulas do Anexo III e, sob certas condições, em todas as 25, gerando sobreposição DPIA/FRIA sem coordenação regulatória (achados)"
+S26,"Guias/ferramentas existentes (ISO/IEC 29134:2023, software PIA da CNIL) não esclarecem o que determina o 'alto risco', exigindo interpretação caso a caso (Estado da Arte)"
+S26,Obrigações de avaliação recaem sobre atores diferentes da cadeia de valor sem mecanismo definido de compartilhamento de informação de risco (RO4)
+S27,O estudo não discute regulações (GDPR etc.); as lacunas apontadas são técnicas: vazamento interno a usuários não autorizados da organização é pouco estudado e não há trabalhos sobre a interconexão entre anonimização e controle de acesso (Seç. IV-A1)
+S27,Poucas proteções no nível de embeddings e nenhuma para o texto mapeado no banco vetorial (Seç. IV-A2)
+S27,"Mitigações de vazamento de respostas focam riscos do LLM e não do sistema RAG; escassez de proteções sensíveis ao contexto do usuário para prompts (Seç. IV-A4, IV-A5)"
+S27,Mitigações em geral imaturas; só cerca de 1/4 dos artigos reporta custo computacional (p. 10-11)
+S28,"Equidade é princípio central do GDPR, mas é indefinida na lei e quase ausente dos guias de DPIA das autoridades (ICO, CNIL, DPC, WP29) (p. 3-4, 7)"
+S28,"As métricas de fairness de ML reduzem a equidade à não discriminação estatística, enquanto o conceito jurídico abrange exploração, assimetria de poder e engano; métricas incompatíveis permitem ao controlador escolher a mais favorável (p. 6-7)"
+S28,"O DPIA é ex ante e depende da autoavaliação do controlador, sem garantir a conformidade da operação continuada (p. 7-8)"
+S29,O foco no 'direito à explicação' individual é estreito demais; a transparência individual não revela padrões sistêmicos e de grupo (Introdução; 'Individual rights...')
+S29,"O DPIA não precisa ser publicado e a consulta a interessados é fraca (pode se limitar a pesquisas feitas pela empresa), o que enfraquece a governança colaborativa ('Collaborative governance')"
+S29,"O controlador decide sozinho se o risco residual é alto, e portanto se haverá supervisão da autoridade (Art. 36)"

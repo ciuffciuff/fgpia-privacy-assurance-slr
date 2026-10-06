@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this data package, please cite it as below."
+title: "Privacy assurance in the machine learning lifecycle: a risk-based extension of CRISP-ML(Q) — systematic review data package"
+type: dataset
+date-released: 2026-10-06
+license: CC-BY-4.0
+authors:
+  - family-names: Moreira
+    given-names: César A. C.
+    orcid: "https://orcid.org/0009-0001-0248-6791"
+    affiliation: "University of Brasília"
+  - family-names: Marcelino
+    given-names: Ícaro
+    orcid: "https://orcid.org/0000-0001-8974-0678"
+    affiliation: "University of Brasília"
+  - family-names: Silva
+    given-names: Willyan
+    affiliation: "University of Brasília"
+  - family-names: Monteiro
+    given-names: Simone Borges Simão
+    orcid: "https://orcid.org/0000-0001-5546-8143"
+    affiliation: "University of Brasília"
+  - family-names: Grubisic
+    given-names: Viviane Vasconcellos Ferreira
+    orcid: "https://orcid.org/0000-0001-8912-0911"
+    affiliation: "Federal University of Rio Grande do Sul"
+keywords:
+  - privacy by design
+  - CRISP-ML(Q)
+  - machine learning lifecycle
+  - privacy risk management
+  - systematic literature review

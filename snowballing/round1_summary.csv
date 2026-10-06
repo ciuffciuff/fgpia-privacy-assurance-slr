@@ -1,0 +1,11 @@
+indicador,valor
+Estudos no conjunto inicial,29
+Estudos sem correspondência no OpenAlex,0
+Registros brutos (backward + forward),1052
+Candidatos únicos,1023
+Excluídos por critério objetivo,414
+Já presentes no corpus (duplicatas),19
+Novos para triagem,590
+  prioridade 1,6
+  prioridade 2,75
+  prioridade 3,509

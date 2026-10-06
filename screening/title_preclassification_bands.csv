@@ -1,0 +1,8 @@
+Code,Meaning,Band 1,Band 2,Total
+INC,Meets IC1 and IC2 by title; read abstract first,17,12,29
+INC?,May meet the criteria; title insufficient,39,46,85
+EC1,Likely isolated technique,32,237,269
+NIC2,AI/ML with privacy but no process or practice,10,184,194
+NIC1,Privacy outside the AI/ML lifecycle,44,307,351
+IC4,Published before 2016,2,41,43
+Total,,144,827,971

@@ -1,0 +1,6 @@
+Code,Gap,Description,Phases,Anchoring studies
+G1,Norms without sufficiency criteria,"""Appropriate measures"", ""means reasonably likely"" and ""limited to what is necessary"" do not state which evidence suffices; organizations fall into paper-only compliance or ad hoc engineering","F1, F2, F4","S02, S09, S16, S22, S24, S28"
+G2,"Static, generic impact assessment","The DPIA is performed once, becomes outdated with retraining and drift, does not cover AI-specific risks (inferred data, automated decisions) and overlaps with the AI Act FRIA","F1, F6","S05, S10, S12, S17, S19, S25, S26, S28, S29"
+G3,Data subject rights after training,"Erasure, rectification and consent withdrawal are hard once data are in the weights; machine unlearning is not mature","F5, F6","S01, S03, S08, S15"
+G4,PETs disconnected from the process,"Isolated techniques address one segment of the cycle; there is no guidance on which PET to use for each risk and phase, nor standardized metrics","F2, F3, F4","S02, S03, S08, S14, S15, S16, S20, S27"
+G5,Weak traceability and documentation,"Missing links between legal requirement, technical control and audit evidence, and no protocol for post-deployment audit","cross-cutting, F5","S02, S05, S11, S19, S22, S29"

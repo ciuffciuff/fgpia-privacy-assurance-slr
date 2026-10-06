@@ -1,0 +1,8 @@
+Criterion,Reason,Records
+IC1,"No combined privacy, process and AI/ML signal in title or abstract",8427
+IC1,Privacy outside the AI/ML lifecycle,351
+EC1,Purely algorithmic work on an isolated technique,269
+IC2,AI/ML with privacy but no process model or practice,194
+IC1/IC2,Possible match rejected after abstract reading,85
+IC4,Published before 2016,43
+Total,,9369

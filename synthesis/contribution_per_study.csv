@@ -1,0 +1,30 @@
+ID,Phases,Main contribution used,Level,Gaps,Use,QA
+S01,"F1, F6",Cyclical personal-data exposure assessment with DPIA; data subject rights x lifecycle stage matrix,4,"G2, G3",Adapted,4.0
+S02,F1-F6,Risk x phase x control catalogue; PIA and privacy metrics from planning,2,"G4, G5",Adapted,2.5
+S03,"F1, F5, F6",AI bill of materials with consent and licences as traceability artifact,4,G3,Adapted,3.0
+S04,F2-F4,Code-to-data synthetic data flow; zero replications of unique records,4,G1,Adopted,3.5
+S05,"Cross, F6",DPIA extended to training and inferred personal data; defensible retention and disposal,3,G2,Adapted,2.0
+S06,"F1, F2",Severity formula SE = DPC EI + CP with threshold SE < 3; WP29 DPIA screening,2,G1,Adapted,3.0
+S07,"F3, F5","Catalogue of PETs for ML as a service, without lifecycle link",4,G4,Grounds gap,1.0
+S08,"F2, F6","Retention policies, retention audits and proof of erasure",4,G3,Adapted,2.0
+S09,"F2, F4","(epsilon,delta) re-identification protection; privacy budget chosen by the Hand formula","2, 4",G1,Adopted,3.0
+S10,"F1, F6",Dynamic DPIA with reassessment on retraining; nine validated privacy touch points,3,G2,Adopted,3.5
+S11,"F1, F6",Legal article -> verifiable constraint -> backlog user story,4,G5,Adapted,4.0
+S12,F1-F6,PDCA DPIA traced to ISO 31000/27701/29134; fairness and human-review thresholds,"3, 4","G2, G5",Adapted,4.0
+S13,"F1, F2, F4",Local LLM-generated DPIA guiding pseudonymization; counterfactual score test,4,G4,Adapted,3.5
+S14,"F1, F3, F4",PET -> GDPR principle -> lifecycle stage mapping,3,G4,Adopted,3.5
+S15,F1-F6,Risk severity per stage and risk-PET mapping per stage,2,G4,Adopted,3.0
+S16,"F2, F3","Minimization by adversary position; auditable k, l, t, epsilon, delta",4,"G1, G4",Adopted,3.0
+S17,F1-F5,Re-identification metrics before and after mitigation; per-session privacy budget,4,"G1, G2",Adapted,3.0
+S18,Cross,"Privacy checks as CI/CD gates, without ML lifecycle or reusable criteria",4,G5,Grounds gap,2.0
+S19,"F1, F5",Multi-jurisdiction requirement matrix including the LGPD; four-level compliance scale,3,"G2, G5",Adapted,3.0
+S20,F3-F5,"Differential privacy, adversarial training and access control without thresholds",4,G4,Grounds gap,2.0
+S21,F4,Robustness-privacy trade-off and leakage metrics,4,G4,Counterpoint,0.5
+S22,Cross,Principle -> requirement -> engineering rule -> audit evidence; audit questions,"3, 4","G1, G5",Adopted,2.5
+S23,F4,Aggregated privacy risk score with confidence interval,4,G1,Adopted,3.5
+S24,"F2, F5","Anonymization in the CI/CD pipeline, lacking a sufficiency criterion",4,G1,Grounds gap,2.0
+S25,"Cross, F5, F6",Privacy risk -> governance mechanism mapping under the NIST AI RMF,2,G2,Adapted,2.5
+S26,"F1, F5",GDPR DPIA triggers vs AI Act high-risk cases; DPIA reused in the FRIA along the value chain,2,G2,Adapted,3.0
+S27,F2-F6,Privacy risks and mitigations per stage of retrieval-augmented generation pipelines,"2, 4",G4,Adapted,2.5
+S28,"F1, F4",Fairness as an explicit element of the DPIA; limits of ML fairness metrics,3,"G1, G2",Counterpoint,2.5
+S29,"F1, F4-F6",DPIA as a living algorithmic impact assessment with multi-layered explanations,3,"G2, G5",Adapted,3.0

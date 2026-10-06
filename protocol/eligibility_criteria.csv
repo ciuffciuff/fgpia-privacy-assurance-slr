@@ -1,0 +1,11 @@
+Code,Criterion
+IC1,"Addresses privacy or data protection in a process, methodology or lifecycle of AI/ML solutions"
+IC2,"Proposes, extends, evaluates or critiques a process model, set of practices or assurance method"
+IC3,Peer-reviewed publication (journal or conference)
+IC4,Published from 2016 onwards
+IC5,Written in English or Portuguese
+EC1,"Purely algorithmic work on an isolated technique, without lifecycle phase or decision criterion"
+EC2,"Grey literature, standards and authority guidance (treated separately as regulatory context)"
+EC3,Duplicates or superseded versions of the same study
+EC4,Full text not accessible
+EC5,"Abstracts, posters and short papers without enough detail for extraction"

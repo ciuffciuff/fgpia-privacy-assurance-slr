@@ -1,0 +1,16 @@
+ID,Study,Type,Domain,QA,ID,Study,Type,Domain,QA
+S01,S01,Framework,General,4.0,S16,S16,SoK,General,3.0
+S02,S02,Survey,General,2.5,S17,S17,Framework,Generative AI,3.0
+S03,S03,Position framework,Generative AI,3.0,S18,S18,Framework,DevSecOps,2.0
+S04,S04,Case study,Healthcare,3.5,S19,S19,Legal-regul.,Customer analytics,3.0
+S05,S05,Framework,Information governance,2.0,S20,S20,Framework,Cloud,2.0
+S06,S06,Legal-regul.,Training datasets,3.0,S21,S21,Survey,General,0.5
+S07,S07,Lessons learned,Cloud (MLaaS),1.0,S22,S22,Framework,General,2.5
+S08,S08,Survey,General,2.0,S23,S23,Testing process,General,3.5
+S09,S09,Legal-regul.,General,3.0,S24,S24,Position framework,Education,2.0
+S10,S10,Empirical (Delphi),Big data and AI,3.5,S25,S25,Survey,Generative AI,2.5
+S11,S11,Metamodel,Software in general,4.0,S26,S26,Legal-regul.,General,3.0
+S12,S12,SLR + PDCA framework,General; HR example,4.0,S27,S27,SoK,Generative AI (RAG),2.5
+S13,S13,Empirical,Human resources,3.5,S28,S28,Legal-regul.,Automated decisions,2.5
+S14,S14,Legal-regul.,Healthcare,3.5,S29,S29,Legal-regul.,Automated decisions,3.0
+S15,S15,Knowledge model,Healthcare,3.0,,,,,

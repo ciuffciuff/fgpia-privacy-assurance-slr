@@ -1,0 +1,6 @@
+Code,Question
+QA1,Are the objectives and contribution clearly stated?
+QA2,Is the research (or artifact construction) method described and adequate?
+QA3,"Was the proposal evaluated empirically (case study, experiment, experts)? An illustrative example scores 0.5."
+QA4,Is there explicit traceability between regulatory requirements and the proposed activities?
+QA5,Does the study address the AI/ML lifecycle phase by phase?

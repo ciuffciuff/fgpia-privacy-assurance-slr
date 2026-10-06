@@ -1,0 +1,22 @@
+stage,source,n
+identified,"databases (Scopus, WoS, IEEE Xplore)",14362
+duplicates_removed,databases,4964
+screened_title_abstract,databases,9398
+excluded_title_abstract,databases,9369
+sought_for_retrieval,databases,29
+not_retrieved_EC4_access_denied,databases,4
+assessed_full_text,databases,25
+included,databases,25
+raw_records,snowballing (OpenAlex),1052
+unique_candidates,snowballing,1022
+excluded_metadata,snowballing,257
+already_in_corpus,snowballing,20
+excluded_title,snowballing,728
+screened_abstract,snowballing,17
+excluded_abstract,snowballing,8
+sought_for_retrieval,snowballing,9
+not_retrieved_EC4_access_denied,snowballing,4
+assessed_full_text,snowballing,5
+excluded_IC2,snowballing,1
+included,snowballing,4
+included_total,all,29

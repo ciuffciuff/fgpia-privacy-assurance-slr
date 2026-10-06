@@ -1,0 +1,10 @@
+candidate,title,doi,full_text_decision,study_id
+SB01,"Impact assessment requirements in the GDPR vs the AI Act: Overlaps, divergence, and implications",10.1016/j.clsr.2026.106317,INCLUDE,S26
+SB02,"Exploring the Integration of AI, Privacy, and Cybersecurity Risks into a Unified Risk Management Model",10.1007/978-3-032-36813-3_16,EXCLUDE - EC4 (access denied),
+SB03,A Generic Framework for Privacy Risk Assessment of Machine Learning Models,10.1109/pst65910.2025.11268888,EXCLUDE - EC4 (access denied),
+SB04,"Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks",10.1145/3613904.3642116,EXCLUDE - IC2 not met,
+SB05,Towards a privacy impact assessment methodology to support the requirements of the general data protection regulation in a big data analytics context: A systematic literature review,10.1016/j.clsr.2021.105640,EXCLUDE - EC4 (access denied),
+SB07,Data minimization for GDPR compliance in machine learning models,10.1007/s43681-021-00095-8,EXCLUDE - EC4 (access denied),
+SB09,SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems,10.1109/satml68715.2026.00039,INCLUDE,S27
+SB12,Fairness and Data Protection Impact Assessments,10.1145/3461702.3462528,INCLUDE,S28
+SB14,Algorithmic impact assessments under the GDPR: producing multi-layered explanations,10.1093/idpl/ipaa020,INCLUDE,S29
