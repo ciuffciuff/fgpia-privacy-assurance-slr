@@ -1,0 +1,6 @@
+subset,studies,activities,F1,F2,F3,F4,F5,F6,cross_cutting,all_phases
+All included studies,29,270,28,29,23,55,14,23,18,27
+Quality score >= 3.0,17,156,37,42,22,57,29,29,23,35
+"Excluding QA < 2.0 and studies flagged at pre-screening (S04, S07, S08, S20, S21)",24,235,30,21,14,52,17,19,19,26
+"Excluding secondary studies (S02, S08, S16, S21, S25, S27)",23,197,35,27,23,54,19,25,21,30
+Database studies only (S01-S25),25,245,23,30,24,55,16,21,20,26

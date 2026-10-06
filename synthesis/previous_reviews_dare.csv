@@ -1,0 +1,8 @@
+review,topic,sources,studies,C1_criteria,C2_search,C3_quality,C4_description,score
+Plotnikova et al. 2020,Adaptations of data mining methodologies,"Scopus, WoS, Google Scholar",207,Y,P,Y,P,3.0
+Shimaoka et al. 2024,Adaptations of CRISP-DM,"Scopus, IEEE, ACM, snowballing",17,Y,P,Y,Y,3.5
+Borovits et al. 2026,Privacy engineering in software engineering,"IEEE, ACM, Scopus, PubMed, snowballing",90,Y,Y,P,Y,3.5
+Jahan et al. 2026,Differential privacy in ML,"Scopus, IEEE, ACM, WoS, citation chaining",106,Y,Y,Y,P,3.5
+Metin et al. 2026 (S12),DPIA implementation in AI-driven digitalisation,"Scopus, WoS",25,Y,N,Y,Y,3.0
+Bodea et al. 2026 (S27),Privacy in retrieval-augmented generation,"Google Scholar, ACM, IEEE, grey literature",72,Y,P,N,Y,2.5
+This review,Privacy in AI/ML process models,"Scopus, WoS, IEEE, snowballing",29,Y,P,Y,Y,3.5
